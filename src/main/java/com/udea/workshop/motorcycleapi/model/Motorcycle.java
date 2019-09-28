@@ -35,6 +35,9 @@ public class Motorcycle implements Serializable {
     @Column(name = "subcategory")
     private String subcategory;
 
+    @Column(name = "photo_url")
+    private String photoUrl;
+
     @Column(name = "description")
     private String description;
 }

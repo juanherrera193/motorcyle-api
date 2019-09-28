@@ -43,6 +43,7 @@ public class MotorcycleServiceImpl implements MotorcycleService {
         motorcycle.setDescription(request.getDescription());
         motorcycle.setReference(request.getReference());
         motorcycle.setSubcategory(request.getSubcategory());
+        motorcycle.setPhotoUrl(request.getPhotoUrl());
 
         motorcycle = repository.save(motorcycle);
 

@@ -8,5 +8,6 @@ public class MotorcycleRequest {
     private String reference;
     private String mileage;
     private String subcategory;
+    private String photoUrl;
     private String description;
 }

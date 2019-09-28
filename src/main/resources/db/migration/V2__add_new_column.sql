@@ -1,0 +1,2 @@
+ALTER TABLE motorcycle
+ADD COLUMN photo_url TEXT NOT NULL;
